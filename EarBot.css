@@ -1,0 +1,380 @@
+
+
+.body{
+	background-color: black;
+}
+
+.img1{
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50%;
+	margin-left: 15%;
+	position: relative;
+	top: 250px;
+	transition: 1s;
+}
+
+.img2{
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50%;
+	margin-left: 20%;
+	position: relative;
+	top: 50px;
+	transition: 1s;
+}
+
+.img3{
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50%;
+	float: right;
+	margin-right: 15%;
+	position: relative;
+	top: 250px;
+	transition: 1s;
+}
+
+.img1:hover{
+	transform: rotate(360deg);
+}
+
+.img2:hover{
+	transform: rotate(360deg);
+}
+
+.img3:hover{
+	transform: rotate(360deg);
+}
+
+.welcome{
+	color: white;
+	position: relative;
+	top: 250px;
+	left: 39%;
+	font-size: 2.5vw;
+}
+
+.welcome>span{
+	color: red;
+}
+
+.navBar{
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid gray;
+	height: 12vh;
+	display: flex;
+	align-items: center;
+}
+
+.navBar>a{
+	text-decoration: none;
+	font-size: 35px;
+	margin-left: 15px;
+	color: gray;
+}
+
+.navBar>a>span{
+	color: red;
+}
+
+.navDiv{
+	margin-left: 65%;
+	font-size: 17px;
+	margin-top: -20px;
+}
+
+.navDiv>a{
+	text-decoration: none;
+	margin-left: 25px;
+	color: gray;
+}
+
+.navDiv>.Aproduct{
+	color: white;
+}
+
+.navBar>a:hover{
+	color: white;
+}
+
+.navDiv>a:hover{
+	color: white;
+}
+
+.audioImg{
+	width: 100%;
+}
+
+.imgText{
+	width: 400px;
+	position: relative;
+	top: -750px;
+	float: right;
+	right: 50px;
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+	word-spacing: 6px;
+}
+
+.imgText>p:first-child{
+	font-size: 30px;
+	text-align: center;
+}
+
+#container2{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+#container2>img{
+	width: 21vw;
+	height: auto;
+	margin-right: 25px;
+	transition: 1s;
+}
+
+#container2>img:hover{
+	transform: scale(1.2);
+}
+
+
+.footer{
+	margin-top: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: gray;
+	margin-bottom: 60px;
+}
+
+.footer>i{
+	font-size: 50px;
+	color: #50abf1;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.AudioGray{
+	background-color: #eeeeee;
+	height: 19vh;
+	display: grid;
+	align-items: center;
+	padding-left: 70px;
+	color: black;
+	font-size: 20px;
+}
+
+.AudioHadding1,.AudioHadding2{
+	color: black;
+	font-size: 32px;
+	margin-left: 40px;
+}
+
+.AudioHadding1{
+	margin-top: 100px;
+}
+
+.AudioHadding2{
+	margin-top: 20px;
+}
+
+.AudioPara{
+	font-size: 14px;
+	margin-left: 40px;
+}
+
+.AudioHeddingImg{
+	margin-left: 40px;
+}
+
+.ImgGallery{
+	text-align: center;
+	font-size: 35px;
+	color: black;
+}
+
+.AudioImg1{
+	margin-left: 20px;
+}
+
+.AudioImg2{
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.AudioPara2{
+	font-size: 14px;
+	margin-left: 40px;
+	width: 46vw;
+}
+
+.navBar2{
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid gray;
+	height: 12vh;
+	display: flex;
+	align-items: center;
+}
+
+.navBar2>a{
+	text-decoration: none;
+	font-size: 35px;
+	margin-left: 15px;
+	color: gray;
+}
+
+.navBar2>a>span{
+	color: red;
+}
+
+.navDiv2{
+	margin-left: 50%;
+	font-size: 17px;
+	margin-top: -20px;
+}
+
+.navDiv2>a{
+	text-decoration: none;
+	margin-left: 25px;
+	color: gray;
+}
+
+.navDiv2>.Aproduct{
+	color: white;
+}
+
+.navBar2>a:hover{
+	color: white;
+}
+
+.navDiv2>a:hover{
+	color: white;
+}
+
+.navDiv2>input{
+	margin-left: 10px;
+	border-radius: 4px 0px 0px 4px;
+	font-size: 12px;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.navDiv2>i{
+	padding: 8.8px;
+	padding-bottom: 8.9px;
+	font-size: 12px;
+	background: #4f4e4d;
+	position: relative;
+	left: -5px;
+}
+
+.homeDiv{
+	border: 1px solid #c4c2c2;
+	border-radius: 4px;
+	margin-left: 10%;
+	width: 75%;
+	height: 7vh;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.container{
+	margin-top: 20px;
+	margin-left: 10%;
+}
+
+.firstCol{
+	border: 1px solid #c4c2c2;
+}
+
+.blue{
+	background-color: #1694f5;
+	width: 42.9vw;
+	height: 6vh;
+	padding-top: 10px;
+	color: white;
+	margin-left: -12px;
+}
+
+.blue>i{
+	margin-left: 20px;
+}
+
+
+.name{
+	margin-top: 20px;
+}
+
+.input{
+	position: relative;
+	top: -10px;
+	width: 40vw;
+	border: 1px solid #c4c2c2;
+	padding: 4px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.name2{
+	font-size: 12px;
+	margin-top: -5px;
+	color: gray;
+}
+
+.green{
+	background-color: #38c446;
+	width: 28.5vw;
+	height: 6vh;
+	padding-top: 10px;
+	color: white;
+	margin-left: -11.5px;
+}
+
+.green>i{
+	margin-left: 20px;
+}
+
+.secondCol{
+	margin-left: 3%;
+	background-color: #eeeeee;
+	border: 1px solid #c4c2c2;
+	height: 30vh;
+}
+
+.secondCol>p{
+	margin-top: 15px;
+	line-height: 40px;
+}
+
+.textarea{
+	margin-top: -12px;
+	border-radius: 4px;
+	border: 1px solid #c4c2c2;
+	width: 40vw;
+	height: 15vh;
+}
+
+.btn{
+	margin-top: 10px;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.footer2{
+	background-color: #343a40;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	height: 25vh;
+	padding-top: 30px;
+}
+
+.footer2>i{
+	position: relative;
+	top: -10px;
+	font-size: 60px;
+	cursor: pointer;
+}
